@@ -84,7 +84,7 @@ document.addEventListener('readystatechange', (event) => {
 					}).then(successCallback).catch(errorCallback);
 				}
 			}
-		});
+		};
 		
 		body.addEventListener('dblclick', changeVideo);
 
